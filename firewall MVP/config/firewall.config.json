@@ -1,0 +1,25 @@
+{
+  "blockedIps": [
+    "65.61.137.117",
+    "44.228.249.3",
+    "142.251.39.142"
+  ],
+  "blockedPorts": [
+    { "protocol": "tcp", "port": 80 },
+    { "protocol": "udp", "port": 161 },
+    { "protocol": "tcp", "port": 22 }
+  ],
+  "blockedDomains": [
+    "example-malware.test",
+    "ads.badsite.test",
+    "tracking.badsite.test",
+    "phishing.badsite.test"
+  ],
+  "trafficLimitBytes": 53687091200,
+  "httpAutoBlock": {
+    "enabled": true,
+    "blockPlainHttp": true,
+    "blockHosts": true
+  },
+  "stateTtlSeconds": 86400
+}
